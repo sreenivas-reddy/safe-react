@@ -10,9 +10,6 @@ import Paragraph from 'src/components/layout/Paragraph'
 import Row from 'src/components/layout/Row'
 import usePairing from 'src/logic/wallets/pairing/hooks/usePairing'
 import { initPairing, isPairingModule } from 'src/logic/wallets/pairing/utils'
-
-// Hides first wallet in Onboard modal (pairing module)
-import 'src/components/AppLayout/Header/components/ProviderDetails/hidePairingModule.css'
 import { useGetPairingUri } from 'src/logic/wallets/pairing/hooks/useGetPairingUri'
 
 const StyledDivider = styled(Divider)`
